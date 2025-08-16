@@ -6,6 +6,6 @@ permalink: /
 
 # Lullibee — Legal & Support
 
-- [Privacy Policy](https://longstridethegreat.github.io/lullibee-legal/privacy-policy/)
-- [Terms of Use](https://longstridethegreat.github.io/lullibee-legal/terms/)
-- [Support](https://longstridethegreat.github.io/lullibee-legal/support/)
+- [Privacy Policy]({{ site.baseurl }}/privacy-policy/)
+- [Terms of Use]({{ site.baseurl }}/terms/)
+- [Support]({{ site.baseurl }}/support/)
