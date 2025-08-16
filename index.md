@@ -5,6 +5,6 @@ title: Lullibee Legal
 
 # Lullibee Legal & Support
 
-- [Privacy Policy](/privacy-policy)
-- [Terms of Use](/terms)
-- [Support](/support)
+- [Privacy Policy]({{ site.baseurl }}/privacy-policy/)
+- [Terms of Use]({{ site.baseurl }}/terms/)
+- [Support]({{ site.baseurl }}/support/)
