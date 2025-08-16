@@ -1,3 +1,8 @@
+---
+layout: none
+permalink: /support/
+---
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -7,21 +12,30 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/mvp.css"> 
+  <link rel="stylesheet" href="https://unpkg.com/mvp.css">
   <style>
     :root { --color-bg: #FFF8EB; --color-link: #1D2939; }
     body { background: var(--color-bg); font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+    main { max-width: 980px; margin: 0 auto; padding: 1.5rem; }
     header { display:flex; align-items:center; gap:16px; }
     header img { width:48px; height:48px; }
     .muted { color:#667085; }
     .box { background:white; padding:1.25rem; border-radius:12px; border:1px solid #eee; }
-    textarea { min-height: 160px; }
-    footer { margin-top: 48px; font-size: 0.9rem; }
+    textarea { min-height:160px; }
+    footer { margin-top:48px; font-size:.9rem; }
     .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+    nav a { margin-right: 12px; }
   </style>
 </head>
 <body>
   <main>
+    <nav>
+      <a href="{{ site.baseurl }}/">Lullibee Legal</a>
+      <a href="{{ site.baseurl }}/privacy-policy/">Privacy Policy</a>
+      <a href="{{ site.baseurl }}/support/">Support</a>
+      <a href="{{ site.baseurl }}/terms/">Terms of Use</a>
+    </nav>
+
     <header>
       <img src="https://raw.githubusercontent.com/longstridethegreat/lullibee-legal/main/icon-512.png" alt="Lullibee logo" onerror="this.style.display='none'">
       <div>
@@ -46,16 +60,15 @@
           <small class="muted">Tip: from the app, you can open Support to autofill these fields.</small>
           <br><br>
           <button type="submit">Open email to support</button>
-          <p class="muted" style="margin-top:.5rem">This opens your email app with everything pre‑filled. You can review before sending.</p>
+          <p class="muted" style="margin-top:.5rem">This opens your email app with everything pre-filled. You can review before sending.</p>
         </form>
       </article>
 
       <article class="box">
         <h2>Quick links</h2>
         <ul>
-          <li><a href="../privacy.html">Privacy Policy</a></li>
-          <li><a href="../terms.html">Terms of Use</a></li>
-          <li><a href="../disclaimer.html">Medical Disclaimer</a></li>
+          <li><a href="{{ site.baseurl }}/privacy-policy/">Privacy Policy</a></li>
+          <li><a href="{{ site.baseurl }}/terms/">Terms of Use</a></li>
         </ul>
         <p class="muted">Emergency? If your baby is hard to wake, struggling to breathe, has a high fever, green/bloody vomit or you’re worried—seek urgent care immediately.</p>
       </article>
