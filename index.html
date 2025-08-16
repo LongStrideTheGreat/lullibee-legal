@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Lullibee Support</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/mvp.css"> 
+  <style>
+    :root { --color-bg: #FFF8EB; --color-link: #1D2939; }
+    body { background: var(--color-bg); font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+    header { display:flex; align-items:center; gap:16px; }
+    header img { width:48px; height:48px; }
+    .muted { color:#667085; }
+    .box { background:white; padding:1.25rem; border-radius:12px; border:1px solid #eee; }
+    textarea { min-height: 160px; }
+    footer { margin-top: 48px; font-size: 0.9rem; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <img src="https://raw.githubusercontent.com/longstridethegreat/lullibee-legal/main/icon-512.png" alt="Lullibee logo" onerror="this.style.display='none'">
+      <div>
+        <h1 style="margin:0;">Lullibee Support</h1>
+        <p class="muted" style="margin:.25rem 0 0">We’re here to help. Typical response: 1–2 business days.</p>
+      </div>
+    </header>
+
+    <section class="grid">
+      <article class="box">
+        <h2>Contact us</h2>
+        <p>Send us an email with a few details—we’ll get back to you.</p>
+        <form id="mailtoForm">
+          <label>Name <input id="name" required placeholder="Your name"></label>
+          <label>Reply-to email <input id="email" type="email" required placeholder="you@example.com"></label>
+          <label>Subject <input id="subject" required placeholder="e.g., Trouble logging sleep"></label>
+          <label>Message <textarea id="message" required placeholder="What's going wrong? Steps to reproduce?"></textarea></label>
+          <div class="grid">
+            <label>App version <input id="appv" placeholder="e.g., 1.0.0"></label>
+            <label>Platform <input id="platform" placeholder="iOS 17.5 / Android 14"></label>
+          </div>
+          <small class="muted">Tip: from the app, you can open Support to autofill these fields.</small>
+          <br><br>
+          <button type="submit">Open email to support</button>
+          <p class="muted" style="margin-top:.5rem">This opens your email app with everything pre‑filled. You can review before sending.</p>
+        </form>
+      </article>
+
+      <article class="box">
+        <h2>Quick links</h2>
+        <ul>
+          <li><a href="../privacy.html">Privacy Policy</a></li>
+          <li><a href="../terms.html">Terms of Use</a></li>
+          <li><a href="../disclaimer.html">Medical Disclaimer</a></li>
+        </ul>
+        <p class="muted">Emergency? If your baby is hard to wake, struggling to breathe, has a high fever, green/bloody vomit or you’re worried—seek urgent care immediately.</p>
+      </article>
+    </section>
+
+    <section class="box">
+      <h2>What to include</h2>
+      <ul>
+        <li>Steps to reproduce the issue</li>
+        <li>Screenshots if possible</li>
+        <li>Baby nickname (no personal data) if the problem relates to a specific profile</li>
+        <li>Whether you’re on the free or premium plan</li>
+      </ul>
+    </section>
+
+    <footer class="muted">
+      <p>© <span id="y"></span> Lullibee. General information only—always follow your clinician’s advice.</p>
+    </footer>
+  </main>
+
+<script>
+  document.getElementById('y').textContent = new Date().getFullYear();
+
+  // Autofill from query params if the app links here with ?app=1.0.0&platform=iOS
+  const params = new URLSearchParams(location.search);
+  if (params.get('app')) document.getElementById('appv').value = params.get('app');
+  if (params.get('platform')) document.getElementById('platform').value = params.get('platform');
+
+  document.getElementById('mailtoForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const subject = document.getElementById('subject').value.trim();
+    const message = document.getElementById('message').value.trim();
+    const appv = document.getElementById('appv').value.trim();
+    const platform = document.getElementById('platform').value.trim();
+    const ua = navigator.userAgent;
+
+    const body =
+`Name: ${name}
+Reply-to: ${email}
+App version: ${appv}
+Platform: ${platform}
+User agent: ${ua}
+
+Message:
+${message}`;
+
+    const mailto = `mailto:support@lullibee.app?subject=${encodeURIComponent('[Lullibee] ' + subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = mailto;
+  });
+</script>
+</body>
+</html>
