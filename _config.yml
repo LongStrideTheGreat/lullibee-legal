@@ -1,3 +1,4 @@
-title: Lullibee
-description: Legal & Support
-theme: jekyll-theme-cayman
+title: Lullibee Legal
+theme: minima
+url: "https://longstridethegreat.github.io"
+baseurl: "/lullibee-legal"   # << important for project pages
