@@ -10,65 +10,97 @@ last_updated: 2025-09-18
 
 **Effective date:** 18 September 2025  
 **App:** Lullibee (the “App”)  
-**Operator:** <!-- TODO: Your legal entity name here, e.g., Lullibee (Pty) Ltd -->  
-**Contact:** <!-- TODO: your support email, e.g., support@lullibee.app -->
+**Operator:** Lullibee (Pty) Ltd  
+**Contact:** support@lullibee.app  
 
-By using Lullibee, you agree to these Terms. If you don’t agree, please don’t use the App.
+By using Lullibee, you agree to these Terms. If you do not agree, please do not use the App.
+
+---
 
 ## 1. Who may use Lullibee
 - You must be at least 16, or the age of digital consent in your country.  
-- Parents/guardians may use the App to record information **about** their child. The child is **not** the user.
+- Parents/guardians may use the App to record information **about** their child. The child is **not** the user.  
+
+---
 
 ## 2. Health notice (no medical advice)
-Lullibee provides tracking, reminders, and educational content **for information only**. It **does not** provide medical advice, diagnosis, or treatment. Always seek professional medical advice for health concerns. In an emergency, call local emergency services.
+- Lullibee provides tracking, reminders, and educational content **for informational purposes only**.  
+- It does **not** provide medical advice, diagnosis, or treatment.  
+- Always seek professional medical advice for health concerns. In an emergency, call local emergency services.  
+
+---
 
 ## 3. Your account
 - Keep your login credentials confidential.  
-- You’re responsible for activity on your account.  
-- You may request deletion/export of your data via the in-app controls.
+- You are responsible for activity on your account.  
+- You may request deletion or export of your data via the in-app controls.  
 
-## 4. Subscriptions & billing (Google Play)
+---
+
+## 4. Subscriptions & billing
 - Premium is a **subscription** purchased and managed via Google Play.  
-- **Auto-renewal:** Your plan renews automatically unless you cancel at least **24 hours** before renewal.  
-- **Cancellation & refunds:** Manage/cancel in **Google Play > Payments & subscriptions**. Refunds are governed by Play Store policies.  
-- **Pricing & taxes:** Prices may vary by region and include applicable taxes where required.
+- **Auto-renewal:** Subscriptions renew automatically unless cancelled at least **24 hours** before renewal.  
+- **Cancellation & refunds:** Manage/cancel in **Google Play > Payments & subscriptions**. Refunds are subject to Play Store policies.  
+- **Pricing & taxes:** Prices may vary by region and include applicable taxes.  
+
+---
 
 ## 5. Acceptable use
-Don’t misuse the App. For example, you may not:
-- reverse engineer, copy, or resell the App or content;  
-- upload unlawful, harmful, or infringing content;  
-- attempt to access accounts or data without authorization.
+You agree not to misuse the App. For example, you may not:  
+- Reverse engineer, copy, or resell the App or its content.  
+- Upload unlawful, harmful, or infringing content.  
+- Attempt to access accounts or data without authorization.  
 
-We may suspend or terminate accounts that violate these Terms.
+We may suspend or terminate accounts that violate these Terms.  
+
+---
 
 ## 6. Content & licenses
-You retain rights to the content you add to Lullibee. You grant us a limited license to host and process that content solely to provide the App’s features.
+- You retain rights to the content you enter in Lullibee.  
+- You grant Lullibee a limited license to host and process your content solely to provide the App’s features.  
+
+---
 
 ## 7. Privacy
-Our [Privacy Policy](/privacy/) explains what we collect, why, and your choices. By using Lullibee, you also agree to the Privacy Policy.
+Our [Privacy Policy](/privacy/) explains what we collect, why, and how we use it. By using Lullibee, you also agree to the Privacy Policy.  
+
+---
 
 ## 8. Service changes
-We may change, suspend, or discontinue features. We’ll try to give reasonable notice where practical.
+We may change, suspend, or discontinue features at any time. We’ll provide notice where reasonably practical.  
 
-## 9. Disclaimers; limitation of liability
-The App is provided **“as is”** without warranties. To the extent permitted by law, we are **not liable** for indirect, incidental, special, consequential, or exemplary damages.
+---
+
+## 9. Disclaimers & limitation of liability
+- The App is provided **“as is”** without warranties of any kind.  
+- We do not guarantee that the App will always be error-free, uninterrupted, or secure.  
+- We are not responsible for any injuries, health conditions, complications, or deaths arising from reliance on the App.  
+- To the maximum extent permitted by law, we are not liable for indirect, incidental, special, consequential, or exemplary damages.  
+- Some jurisdictions do not allow exclusion of liability for personal injury caused by negligence. In such jurisdictions, our liability is limited to the maximum extent allowed by law.  
+
+---
 
 ## 10. Governing law
-<!-- TODO: choose one primary jurisdiction (e.g., South Africa). -->
-These Terms are governed by the laws of **South Africa**, without regard to conflict-of-law rules. Courts located in **South Africa** will have exclusive jurisdiction.
+These Terms are governed by the laws of **South Africa**, without regard to conflict-of-law rules. Courts located in South Africa will have exclusive jurisdiction.  
 
-_If you distribute globally:_ local mandatory consumer laws may grant additional rights.
+---
 
 ## 11. Changes to these Terms
-If we make material changes, we’ll notify you in the App or by other reasonable means. Continued use after changes means you accept the updated Terms.
+We may update these Terms from time to time. If we make material changes, we’ll notify you in the App or by other reasonable means. Continued use after changes means you accept the updated Terms.  
+
+---
 
 ## 12. Contact
-Questions? Email us at **<!-- lullibeeapp@outlook.com -->**.
+Questions? Email us at **support@lullibee.app**.  
 
 ---
 
 **Quick links:**  
-• [Privacy Policy](/privacy/) • [Support](/support/)
+• [Privacy Policy](/privacy/) • [Support](/support/)  
+
+
+
+
 
 
 
