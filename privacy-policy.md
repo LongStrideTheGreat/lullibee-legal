@@ -39,7 +39,13 @@ Encryption in transit and industry best practices. No method is 100% secure.
 ## Your Rights
 Access, export, correct, or delete your data via the Profile screen, or contact us.
 
+<hr>
+<p><strong>Also see:</strong>
+  <a href="/terms/">Terms of Use</a> •
+  <a href="/support/">Support</a>
+</p>
+
 **Contact**  
 Kidzwatch Pty Ltd T/A Lullibee  
 Broom Rd, Casseldale, Springs, 1559, South Africa  
-hermanfranken1@hotmail.com
+lullibeeapp@outlook.com
