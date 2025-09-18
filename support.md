@@ -1,13 +1,16 @@
 ---
+title: Lullibee — Support
+description: Help and contact for Lullibee.
 layout: default
-title: Support
-permalink: /support
+permalink: /support/
+last_updated: 2025-09-18
 ---
 
-# Lullibee Support
+# Support
 
-Need help or want to report a bug?
+Need help? Reach us at **<!-- lullibeeapp@outlook.com -->**.
 
-- **Email:** [hermanfranken1@hotmail.com](mailto:hermanfranken1@hotmail.com)
-- **App:** Profile → “Export my data (JSON)” or “Delete my account”
-- Please include your device model and app version if reporting an issue.
+**Helpful links**  
+- [Privacy Policy](/privacy/)  
+- [Terms of Use](/terms/)  
+- Manage subscription in **Google Play > Payments & subscriptions**.
